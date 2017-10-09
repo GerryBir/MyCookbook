@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """Generic greeting for users"""
+
+
 def greet_user():
     print("Hello")
     print("Welcome")
@@ -11,10 +13,10 @@ def greet_user_by_name(name,greeting):  # you can give the arguments a default v
     """Customised greeting """
     print(greeting + "," + name)
 
+
 def cube(base_number):
     cubed_value = base_number * base_number * base_number
     return cubed_value
-
 
 
 greet_user()
