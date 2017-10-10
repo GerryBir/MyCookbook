@@ -32,7 +32,7 @@ while number_of_guesses > 0:
         print("Sorry you guessed to low")
 
     number_of_guesses -= 1
-if user_won == True:
+if user_won:
     print("You Win")
 else:
     print("You loose")

@@ -20,7 +20,7 @@ def cube(base_number):
 
 
 greet_user()
-greet_user_by_name(input('What is your name? '),'Welcome')
+greet_user_by_name(input('What is your name? '), 'Welcome')
 
 eleven_cube = cube(11)
 print(eleven_cube)
